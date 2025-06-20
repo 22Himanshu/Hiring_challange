@@ -88,5 +88,58 @@
         "features": ["Queen Bed", "Fireplace", "Private Deck"]
       }
     ]
+  },
+  {
+    "name": "City Center Inn",
+    "location": "Downtown, Metropolis",
+    "star_rating": 3,
+    "description": "Affordable and convenient, our inn is perfect for travelers looking to explore the city without breaking the bank. All major attractions are within walking distance.",
+    "amenities": ["WiFi", "Breakfast"],
+    "policies": {
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation": "Free cancellation up to 24 hours before check-in.",
+      "rescheduling_fee": 15.00,
+      "pets": "Not allowed"
+    },
+    "room_types": [
+      {
+        "name": "Standard Double",
+        "description": "A clean and comfortable room with a double bed, perfect for solo travelers or couples.",
+        "max_occupancy": 2,
+        "base_price": 95.00,
+        "features": ["Double Bed", "Street View"]
+      }
+    ]
+  },
+  {
+    "name": "Heritage Palace Hotel",
+    "location": "Old Town, Royal City",
+    "star_rating": 5,
+    "description": "Experience royalty in a restored heritage palace. Each suite is a testament to history, art, and opulence.",
+    "amenities": ["WiFi", "Parking", "Breakfast", "Spa", "Pool", "Restaurant", "Gardens", "Museum"],
+    "policies": {
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation": "Non-refundable. Rescheduling is possible based on availability.",
+      "rescheduling_fee": 100.00,
+      "pets": "Not allowed"
+    },
+    "room_types": [
+      {
+        "name": "Royal Suite",
+        "description": "A lavish suite adorned with antique furniture, offering a glimpse into a bygone era of kings and queens.",
+        "max_occupancy": 2,
+        "base_price": 750.00,
+        "features": ["King Bed", "Antique Decor", "Butler Service", "Garden View"]
+      },
+      {
+        "name": "Maharani Suite",
+        "description": "The grandest suite in the palace, featuring a private terrace and exquisite craftsmanship.",
+        "max_occupancy": 4,
+        "base_price": 1200.00,
+        "features": ["Four-poster King Bed", "Private Terrace", "Jacuzzi", "Living Area"]
+      }
+    ]
   }
 ]
