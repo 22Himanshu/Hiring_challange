@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Grand Plaza Hotel",
+    "location": "Business District, Metropolis",
+    "star_rating": 5,
+    "description": "The pinnacle of luxury and convenience, located in the heart of the bustling city. Ideal for business travelers and tourists seeking a lavish experience.",
+    "amenities": ["WiFi", "Parking", "Breakfast", "Spa", "Gym", "Pool", "Restaurant", "Business Center"],
+    "policies": {
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation": "Free cancellation up to 48 hours before check-in.",
+      "rescheduling_fee": 50.00,
+      "pets": "Not allowed"
+    },
+    "room_types": [
+      {
+        "name": "Deluxe Room",
+        "description": "A spacious room with a king-sized bed and a stunning view of the city skyline.",
+        "max_occupancy": 2,
+        "base_price": 250.00,
+        "features": ["King Bed", "City View", "Mini-bar", "Work Desk"]
+      },
+      {
+        "name": "Executive Suite",
+        "description": "A luxurious suite with a separate living area, perfect for extended stays or high-profile guests.",
+        "max_occupancy": 4,
+        "base_price": 450.00,
+        "features": ["King Bed", "Separate Living Room", "Kitchenette", "Jacuzzi"]
+      }
+    ]
+  },
+  {
+    "name": "Seaside Resort & Spa",
+    "location": "Sunny Beach, Coastline City",
+    "star_rating": 4,
+    "description": "Escape to our serene beachfront resort, offering breathtaking ocean views and world-class spa treatments.",
+    "amenities": ["WiFi", "Breakfast", "Spa", "Gym", "Pool", "Restaurant", "Beach Access"],
+    "policies": {
+      "check_in": "16:00",
+      "check_out": "11:00",
+      "cancellation": "Free cancellation up to 72 hours before check-in.",
+      "rescheduling_fee": 35.00,
+      "pets": "Small pets allowed on request"
+    },
+    "room_types": [
+      {
+        "name": "Ocean View Room",
+        "description": "Wake up to the sound of waves in this beautiful room with a private balcony overlooking the ocean.",
+        "max_occupancy": 3,
+        "base_price": 180.00,
+        "features": ["Queen Bed", "Ocean View", "Balcony"]
+      },
+      {
+        "name": "Family Bungalow",
+        "description": "A private bungalow with two rooms, perfect for families or groups.",
+        "max_occupancy": 5,
+        "base_price": 320.00,
+        "features": ["Two Bedrooms", "Private Patio", "Kitchenette"]
+      }
+    ]
+  },
+  {
+    "name": "Mountain View Lodge",
+    "location": "Whispering Pines, Summit County",
+    "star_rating": 3,
+    "description": "A cozy, rustic lodge nestled in the mountains, offering a perfect getaway for nature lovers.",
+    "amenities": ["WiFi", "Parking", "Breakfast", "Fireplace Lounge"],
+    "policies": {
+      "check_in": "15:00",
+      "check_out": "11:00",
+      "cancellation": "Cancellation fee applies if cancelled within 7 days of check-in.",
+      "rescheduling_fee": 25.00,
+      "pets": "Allowed"
+    },
+    "room_types": [
+      {
+        "name": "Standard Cabin",
+        "description": "A comfortable cabin with basic amenities and a view of the surrounding forest.",
+        "max_occupancy": 2,
+        "base_price": 120.00,
+        "features": ["Double Bed", "Forest View"]
+      },
+      {
+        "name": "Lodge Suite",
+        "description": "A larger suite with a fireplace and a private deck.",
+        "max_occupancy": 4,
+        "base_price": 190.00,
+        "features": ["Queen Bed", "Fireplace", "Private Deck"]
+      }
+    ]
+  }
+]
