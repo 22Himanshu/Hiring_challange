@@ -98,7 +98,7 @@ Build an intelligent conversational AI agent using LangGraph, LangChain, and Goo
 - **Python Virtual Environments**: https://docs.python.org/3/tutorial/venv.html
 - **SQLite Documentation**: https://sqlite.org/docs.html
 - **pytest Documentation**: https://docs.pytest.org/en/7.4.x/
-- **Flask/FastAPI**: https://flask.palletsprojects.com/ or https://fastapi.tiangolo.com/
+- **FastAPI**: https://fastapi.tiangolo.com/
 - **ngrok (for webhooks)**: https://ngrok.com/docs/getting-started/
 
 ### Development Environment
@@ -194,7 +194,7 @@ hotel_booking_agent/
 - Timeout test: Verify request timeout configurations
 
 #### 1.3 Database Schema Design & Mock Data (ENHANCED)
-**Status: 🔴 Not Started**
+**Status: 🟡 In Progress**
 - Design normalized database schema with proper relationships
 - Implement database migrations system
 - Add database connection pooling
